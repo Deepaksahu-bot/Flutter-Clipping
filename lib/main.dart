@@ -45,8 +45,8 @@ class MyClipper extends CustomClipper<Path>{
     // TODO: implement getClip
     // throw UnimplementedError();
     var path=Path();
-    path.lineTo(0.0,size.height);
-    path.lineTo(size.width, 0.0);
+    path.lineTo(+10.0,size.height);// i have change the size
+    path.lineTo(size.width,+10.0);
     path.close();
     return path;
 
